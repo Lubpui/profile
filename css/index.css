@@ -16,12 +16,14 @@ h4{ /*ปรับหัวข้อ h4*/
     font-size: 20px;   /* ปรับขนาด font */
 }
 
-.table-menu{ /* ปรับclass table-menu*/
+.BGIMG{
     width: 100%;  /* ความกว้าง */
     height: 100vh;  /* ความสูง */
     background-size: cover;  /* ปรับขนาด background เป็นทั้งหน้า*/  
-    font-family: Arial, Helvetica, sans-serif;  /* เปลี่ยนfontของตัวอักษรใน table-menu */
     background-image:url(/img/BG1.jpg); /* ใส่รูปใน background*/
+}
+.table-menu{ /* ปรับclass table-menu*/
+    font-family: Arial, Helvetica, sans-serif;  /* เปลี่ยนfontของตัวอักษรใน table-menu */
 }
 .content-index{ /* ปรับclass content-index*/
     height: 100%; /* ความสูง */
@@ -29,7 +31,7 @@ h4{ /*ปรับหัวข้อ h4*/
     align-items: center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวตั้ง */
     justify-content:center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวนอน*/
     flex-direction: column; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้เป็น column */
-    transform: translateY(-10%); /* ขยับความห่างจากตัว class กับอีก class นึง(Top) */
+    transform: translateY(200%); /* ขยับความห่างจากตัว class กับอีก class นึง(Top) */
 }
 
 .btn{/* ปรับclass btn*/

@@ -4,9 +4,9 @@
 }
 
 .navbar{
-    width: 90%; /* ความกว้าง */
-    margin: auto; /* ปรับขนาดขอบแบบ auto */
-    padding: 35px 0; /* ปรับขนาดของกรอบข้อความ */
+    width: 95%;/* ความกว้าง */
+    margin: auto;/* ปรับขนาดขอบแบบ auto */
+    padding: 35px 0;/* ปรับขนาดของกรอบข้อความ */
     display: flex; /* ทำให้classนี้เป็น flexbox เพื่อช่วยในการจัดเรียง element ต่างๆได้แบบ responsive */
     align-items: center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวตั้ง */
     justify-content: space-between; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงซ้ายและขวาของช่องว่าง */

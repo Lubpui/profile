@@ -1,0 +1,31 @@
+/* CSS files --> contact.html */
+body{
+    background-color: #ffcf66; /* ปรับสีbackground */
+    font-family: Arial, Helvetica, sans-serif; /* เปลี่ยนfontของตัวอักษรใน table-menu */
+}
+.table-menu{
+    background-color: rgb(47, 13, 54);/* ปรับสีbackground */
+}
+table{
+    width:100%; /* ความกว้าง */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    background-color: #FEFDCA; /* ปรับสีbackground */
+    padding: 20px;/* ปรับความกว้างในclass*/
+    margin: 20px;/* ปรับขอบของclass*/
+}
+h1{
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    background-color: antiquewhite;/* ปรับสีbackground */
+    padding: 20px;/* ปรับความกว้างในclass*/
+    margin: 20px; /* ปรับขอบของclass*/
+}
+
+.p-Footer{/* ปรับclass p-Footer */
+    background-color: rgb(32, 32, 32);/* ปรับสี background*/
+    color: aliceblue;/* ปรับสีตัวอักษร */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    padding: 20px;/* ปรับขนาดขอบของ p-Footer */
+    bottom: 0;/* ปรับตำแหน่งให้อยู่ชิดล่างสุดของจอ */
+    position: absolute;/* ปรับตำแหน่งให้อยู่ชิดล่างสุดของจอ */
+    width: 100%; /* ความกว้าง */
+}

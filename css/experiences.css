@@ -1,0 +1,60 @@
+/* CSS files --> experiences.html */
+body{
+    background-color: #ffcf66; /* ปรับสีbackground */
+    font-family: Arial, Helvetica, sans-serif; /* เปลี่ยนfontของตัวอักษรใน table-menu */
+}
+.table-menu{
+    width:100%;  /* ความกว้าง */
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    background-color: rgb(47, 13, 54); /* ปรับสีbackground */
+}
+h1{
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+} 
+h4{
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    font-weight: normal;/* ปรับน้ำหนักของข้อความเป็นแบบปกติ */
+}
+h5{ 
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    font-weight: normal;/* ปรับน้ำหนักของข้อความเป็นแบบปกติ */
+}
+.table-content{
+    margin: auto; /* ปรับขอบของclass*/
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    background-color: #fecaf5;/* ปรับสีbackground */
+}
+.ul-circle{
+    padding: 0 100px; /* ปรับความกว้างในclass*/
+    list-style-type:circle; /* ปรับรูปแบบของ list หน้าข้อความเป็นแบบ เส้นวงกรม*/
+    background-color: #e6b1ff;/* ปรับสีbackground */
+} 
+.ul-disc{
+    padding: 0 100px; /* ปรับความกว้างในclass*/
+    list-style-type:disc; /* ปรับรูปแบบของ list หน้าข้อความเป็นแบบ วงกรมทึบ*/
+    background-color: #e6b1ff;/* ปรับสีbackground */
+}
+.ul-square{
+    padding: 0 100px; /* ปรับความกว้างในclass*/
+    list-style-type:square; /* ปรับรูปแบบของ list หน้าข้อความเป็นแบบ สี่เหลี่ยม*/
+    background-color:#e6b1ff;/* ปรับสีbackground */
+}
+.ol-order{
+    padding: 0 100px; /* ปรับความกว้างในclass*/
+    background-color: #e6b1ff; /* ปรับสีbackground */
+}
+
+.maincontent{
+    height: 100%; /* ความสูง */
+    padding: 30px;/* ปรับความกว้างในclass*/
+    margin: 20px; /* ปรับขอบของclass*/
+    color: rgb(47, 13, 54); /* ปรับสีตัวอักษร */
+    background-color: antiquewhite; /* ปรับสีbackground */
+}
+
+.p-Footer{/* ปรับclass p-Footer */
+    background-color: rgb(32, 32, 32);/* ปรับสี background*/
+    color: aliceblue;/* ปรับสีตัวอักษร */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    padding: 20px;/* ปรับขนาดขอบของ p-Footer */
+}

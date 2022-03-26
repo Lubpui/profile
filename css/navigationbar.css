@@ -1,0 +1,61 @@
+*{
+    margin: 0; /* ปรับให้ไม่มีขอบ */
+    padding: 0; /* ปรับให้ไม่มีขอบ */
+}
+
+.navbar{
+    width: 90%; /* ความกว้าง */
+    margin: auto; /* ปรับขนาดขอบแบบ auto */
+    padding: 35px 0; /* ปรับขนาดของกรอบข้อความ */
+    display: flex; /* ทำให้classนี้เป็น flexbox เพื่อช่วยในการจัดเรียง element ต่างๆได้แบบ responsive */
+    align-items: center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวตั้ง */
+    justify-content: space-between; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงซ้ายและขวาของช่องว่าง */
+}
+.logo{
+    cursor: pointer; /* ปรับรูปร่างของ cursor เมื่่อเอาเม้าส์ชี้ เป็นแบบpointer*/
+    width: 120px; /* ความกว้าง */
+    padding: 5px 5px;/* ปรับขนาดของกรอบข้อความ */
+    transition: transform 0.3s;/* ปรับระยะเวลาของการเปลี่ยน effect */
+}
+
+.logo:hover{
+    transform: scale(1.2);/* ปรับขนาดของทั้งclass */
+    padding: 5px 5px;/* ปรับขนาดของกรอบข้อความ */
+    border-radius: 20px;/* ปรับความโค้งของกรอบข้อความ */
+    background-color: #ffc000; /* เปลี่ยนสี background*/
+    box-shadow: 0 0 5px #ffc000, /* สร้างeffect glow(แสงสว่าง)*/
+                0 0 20px #ffc000,
+                0 0 50px #ffc000;
+}
+
+.navbar ul li{  /*ควบคุมตัวแปล ul li ใน navbar*/
+    list-style: none; /* ปรับให้ไม่มีจุดข้างหน้า */
+    display: inline-block; /* ทำปรับli เป็นแบบเรียงต่อกัน */
+    margin: 0 20px; /* ปรัับช่องว่างของul li */
+    position: relative; /* ปรับposition ให้ชิดเป็นแบบrelative */
+}
+
+.navbar ul li a{  /*ควบคุมตัวอักษร<a>ใน ul li*/
+    text-decoration: none;  /* เปลี่ยนให้ตัวอักษรไม่มีเส้นใต้ */
+    color: rgb(255, 255, 255); /* เปลี่ยนสีตัวอักษร */
+    text-transform:uppercase; /* ปรับตัวอักษรเป็นพิมย์ใหญ่ */
+    font-size: 20px; /* ปรับขนาด font */
+    font-weight: bold; /* ปรับตัวอักษรเป็นตัวหนา */
+    font-family: Arial, Helvetica, sans-serif; /* เปลี่ยนfontของตัวอักษรใน table-menu */
+}
+
+.navbar ul li a:after{ /*ควบคุมตัวอักษร<a>ใน ul li แบบแสดงต่อจาก before ซึ่งก็คือ.navbar ul li a อันก่อน*/
+    content: ""; /* กำหนดให้ข้างในไม่มีข้อความ */
+    height: 3px; /* ความสูง*/
+    width: 0;  /* ความกว้างขณะเรื่มต้นเป็น 0 */
+    background:rgb(176, 118, 231);  /* ปรับสีbackground */
+    position: absolute; /* ปรับ position*/
+    left: 0; /* ปรับช่องทางซ้ายเป็น 0 */
+    bottom: -10px; /* ปรับระดับของกรอบที่สร้างมาใหม่ให้ลงมาข้างล่าง*/
+    transition: 0.3s; /* ปรับระยะเวลาของการเปลี่ยน effect */
+}
+
+.navbar ul li a:hover:after{
+    width: 100%; /* ความกว้างขณะเรื่มต้นเป็น 100% */
+
+}

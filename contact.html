@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Watcharapol  Contact</title>
+    <!--Reference Social Media Icons of Awesome 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+ 
+    <!--External CSS => 3rd Priority-->
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/navigationbar1.css">
+
+</head>
+<body>
+    <!-- Menu -->
+    <div class="table-menu">
+        <div class="navbar">
+            <a href="index.html"><img src="img/logo.png" class="logo"></a>
+            <ul><!-- รายการแบบไม่มีลำดับ -->
+                <!-- li หัวข้อย่อยในรายการ -->
+                <!-- a href ใช้เพื่อลิ้งหัวข้อต่างๆไปที่ไฟล์ต่างๆ -->
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="abilities.html">Abilities</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr> <!-- เส้นขีด -->
+
+    <h1>Contact</h1> 
+    <table><!-- กำหนดตาราง -->
+        <tr><!-- กำหนดแถวของตาราง (Row) -->
+            <td><!-- กำหนดเซลล์ของตาราง -->
+            <!-- Form: https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms -->
+            <form action="mailto:ajnesttheseries@gmail.com" method="POST" enctype="text/plain"> 
+                <label>Your Name:</label><!-- กำหนดให้กรอก Name -->
+                <input type="text" name="yourName" value=""><!-- รับค่าของ Text -->
+                <br><!-- ขึ่นบรรทัดใหม่ -->
+                <label>Your Email:</label><!-- กำหนดให้กรอก Email -->
+                <input type="email" name="yourEmail" value=""><!-- รับค่าของ Email -->
+                <br>
+                <label>Your Message:</label><!-- กำหนดให้กรอกข้อความ -->
+                <br>
+                <textarea name="yourMessage" cols="30" rows="10"></textarea><!-- กำหนดช่องของ yourMessage -->
+                <br>
+                <input type="submit" name=""><!-- รับค่าของ submit -->
+            </form> 
+            <p>
+                <a href="https://www.facebook.com/profile.php?id=100007589059494" class="fa fa-facebook-square" style="font-size: 60px; color: rgb(7, 114, 255);"></a>
+                <a href="https://www.instagram.com/i.itsnxng/" class="fa fa-instagram" style="font-size: 60px; color: brown;"></a>
+            </p><!-- นำรูปภาพมาใช้เพื่อเชื่อมโยงกับลิ้ง -->
+            <p>Email : <a href="watcharapol.chue@bumail.net">watcharapol.chue@bumail.net</a></p><!-- a คือการเชื่อมโยงไปเว็บ -->
+        </tr>
+    </table> 
+    <p class="p-Footer">© 2021 Watcharapol the Series</p>
+</body>
+</html>

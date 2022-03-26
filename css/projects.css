@@ -1,0 +1,43 @@
+/* CSS files --> projects.html */
+body{
+    background-color: #ffcf66; /* ปรับสีbackground */
+    font-family: Arial, Helvetica, sans-serif; /* เปลี่ยนfontของตัวอักษรใน table-menu */
+}
+.table-menu{
+    width:100%;  /* ความกว้าง */
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    background-color: rgb(47, 13, 54); /* ปรับสีbackground */
+} 
+h1{
+    text-align: center;  /* ปรับตัวอักษรไปตรงกลาง */
+    background-color: antiquewhite;/* ปรับสีbackground */
+} 
+h4{
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    font-weight: normal;/* ปรับน้ำหนักของข้อความเป็นแบบปกติ */
+}
+h5{ 
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    font-weight: normal;/* ปรับน้ำหนักของข้อความเป็นแบบปกติ */
+}
+p{
+    text-align: center;     /* ปรับตัวอักษรไปตรงกลาง */
+}
+
+.p-Footer{/* ปรับclass p-Footer */
+    background-color: rgb(32, 32, 32);/* ปรับสี background*/
+    color: aliceblue;/* ปรับสีตัวอักษร */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    padding: 20px;/* ปรับขนาดขอบของ p-Footer */
+    bottom: 0;/* ปรับตำแหน่งให้อยู่ชิดล่างสุดของจอ */
+    position: absolute;/* ปรับตำแหน่งให้อยู่ชิดล่างสุดของจอ */
+    width: 100%; /* ความกว้าง */
+}
+
+.video-content{
+    height: 100%;  /* ความสูง */
+    padding: 30px;/* ปรับความกว้างในclass*/
+    margin: 20px;/* ปรับขอบของclass*/
+    color: rgb(47, 13, 54);/* ปรับสีตัวอักษร */
+    background-color: antiquewhite;/* ปรับสี background*/
+}

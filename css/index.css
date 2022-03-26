@@ -1,0 +1,60 @@
+/* (1) Tag Selector */
+
+*{ /* ปรับทั้งหน้า */
+    margin: 0;  /* ปรับให้ไม่มีขอบ */
+    padding: 0; /* ปรับให้ไม่มีขอบ */
+}
+
+h1{ /*ปรับหัวข้อ h1*/
+    color: rgb(47, 13, 54); /* เปลี่ยนสีตัวอักษร */
+    font-size: 50px; /* ปรับขนาด font */
+    text-transform: uppercase; /* ปรับตัวอักษรเป็นพิมย์ใหญ่ */
+}
+
+h4{ /*ปรับหัวข้อ h4*/
+    color: rgb(47, 13, 54);  /* เปลี่ยนสีตัวอักษร */
+    font-size: 20px;   /* ปรับขนาด font */
+}
+
+.table-menu{ /* ปรับclass table-menu*/
+    width: 100%;  /* ความกว้าง */
+    height: 100vh;  /* ความสูง */
+    background-size: cover;  /* ปรับขนาด background เป็นทั้งหน้า*/  
+    font-family: Arial, Helvetica, sans-serif;  /* เปลี่ยนfontของตัวอักษรใน table-menu */
+    background-image:url(/img/BG1.jpg); /* ใส่รูปใน background*/
+}
+.content-index{ /* ปรับclass content-index*/
+    height: 100%; /* ความสูง */
+    display: flex; /* ทำให้classนี้เป็น flexbox เพื่อช่วยในการจัดเรียง element ต่างๆได้แบบ responsive */
+    align-items: center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวตั้ง */
+    justify-content:center; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวนอน*/
+    flex-direction: column; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้เป็น column */
+    transform: translateY(-10%); /* ขยับความห่างจากตัว class กับอีก class นึง(Top) */
+}
+
+.btn{/* ปรับclass btn*/
+    background-color: blueviolet; /* ปรับสีbackground */
+    color: aliceblue; /* เปลี่ยนสีตัวอักษร */
+    text-decoration: none; /* เปลี่ยนให้ตัวอักษรไม่มีเส้นใต้ */
+    border: 2px solid transparent; /* สร้างและกำหนดขนาดของกรอบข้อความ */
+    font-weight: bold; /* ปรับตัวอักษรเป็นตัวหนา */
+    text-transform: uppercase; /* ปรับตัวอักษรเป็นพิมย์ใหญ่ */
+    padding: 10px 25px;/* ปรับขนาดของกรอบข้อความ */
+    border-radius: 30px;/* ปรับความโค้งของกรอบข้อความ */
+    transition: transform 0.3s;/* ปรับระยะเวลาของการเปลี่ยน effect */
+}
+
+.btn:hover{/* ปรับclass btn เมื่อเอาเม้าส์ไปชี้*/
+    transform: scale(1.2);/* ปรับขนาดของทั้งclass */
+    background-color: #ffc000; /* เปลี่ยนสี background*/
+    box-shadow: 0 0 5px #ffc000, /* สร้างeffect glow(แสงสว่าง)*/
+                0 0 20px #ffc000,
+                0 0 50px #ffc000;
+}
+
+.p-Footer{/* ปรับclass p-Footer */
+    background-color: rgb(32, 32, 32);/* ปรับสี background*/
+    color: aliceblue;/* ปรับสีตัวอักษร */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    padding: 20px;/* ปรับขนาดขอบของ p-Footer */
+}

@@ -1,0 +1,54 @@
+/* CSS files --> abilities.html */
+body{
+    background-color: #ffcf66; /* ปรับสีbackground */
+    font-family: Arial, Helvetica, sans-serif; /* เปลี่ยนfontของตัวอักษรใน table-menu */
+}
+
+h1{
+    font-size: 49px; /* ปรับขนาด font */
+}
+p{
+    font-size: 26px; /* ปรับขนาด font */
+    text-align:justify; /* ปรับตัวอักษรให้ชิดซ้ายขวา */
+}
+p a{
+    text-decoration: none; /* เปลี่ยนให้ตัวอักษรไม่มีเส้นใต้ */
+    color: rgb(199, 104, 218);/* เปลี่ยนสีตัวอักษร */
+}
+
+.table-menu{
+    width:100%;  /* ความกว้าง */
+    text-align: center; /* ปรับตัวอักษรไปตรงกลาง */
+    background-color: rgb(47, 13, 54); /* ปรับสีbackground */
+} 
+
+.content-index{
+    height: 100%; /* ความสูง */
+    display: flex; /* ทำให้classนี้เป็น flexbox เพื่อช่วยในการจัดเรียง element ต่างๆได้แบบ responsive */
+    justify-content: center;/* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้อยู่ตรงกลางแบบแนวนอน*/
+    margin: 20px; /* ปรับขอบของclass*/
+    color: rgb(47, 13, 54);/* เปลี่ยนสีตัวอักษร */
+    background-color: antiquewhite;/* ปรับสีbackground */
+}
+
+.maincontent{
+    height: 100%;/* ความสูง */
+    display: flex;/* ทำให้classนี้เป็น flexbox เพื่อช่วยในการจัดเรียง element ต่างๆได้แบบ responsive */
+    flex-direction: column; /* ใช้ร่วมกับflexbox ปรับ element ต่างๆให้เป็น column */
+    margin: 10px; /* ปรับขอบของclass*/
+    padding: 10px 20px; /* ปรับความกว้างในclass*/
+}
+
+
+.neng01{
+    width: 385px; /* ความกว้าง */
+    height: auto; /* ความสูง */
+    margin: 15px; /* ปรับขอบของclass*/
+}
+
+.p-Footer{/* ปรับclass p-Footer */
+    background-color: rgb(32, 32, 32);/* ปรับสี background*/
+    color: aliceblue;/* ปรับสีตัวอักษร */
+    text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
+    padding: 20px;/* ปรับขนาดขอบของ p-Footer */
+}

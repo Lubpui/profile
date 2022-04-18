@@ -60,3 +60,25 @@ h4{ /*ปรับหัวข้อ h4*/
     text-align: center;/* ปรับตัวอักษรไปตรงกลาง */
     padding: 20px;/* ปรับขนาดขอบของ p-Footer */
 }
+
+@media only screen and (max-width:750px){
+    .content-index{ /* ปรับclass content-index*/
+        transform: translateY(200%); /* ขยับความห่างจากตัว class กับอีก class นึง(Top) */
+        text-align: center;
+    }
+    .content-index h1{
+        font-size: 40px;
+    }
+    .btn{/* ปรับclass btn*/
+        font-size:12px;
+        padding: 6px 17px;/* ปรับขนาดของกรอบข้อความ */
+        border-radius: 30px;/* ปรับความโค้งของกรอบข้อความ */
+    }
+
+}
+
+@media only screen and (max-width:606px){
+    .content-index{ /* ปรับclass content-index*/
+        transform: translateY(150%); /* ขยับความห่างจากตัว class กับอีก class นึง(Top) */
+    }
+}
